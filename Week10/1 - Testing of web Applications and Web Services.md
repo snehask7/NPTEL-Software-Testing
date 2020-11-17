@@ -42,7 +42,8 @@ Each layer must be tested seperately and system level testing must also be done
 
 **OUR TECHNIQUES VS TESTING WEB APPS**
 * graphs dont apply for system level testing of web app, can use for one component alone since program is distributed across internet
-* state behavior is hard to model
+* state behavior is hard to model since there is server state, client state
+* HTML UI has low controllability
 * hard to get access to server side
 * not clear what logic predicates can be used
 * no model for mutation operators
