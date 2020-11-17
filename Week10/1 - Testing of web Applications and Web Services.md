@@ -41,7 +41,7 @@ Each layer must be tested seperately and system level testing must also be done
 * webapp extremely loosely coupled because coupled through internet, coupled through diverse hardware, diverse programmin glanguages
 
 **OUR TECHNIQUES VS TESTING WEB APPS**
-* graphs dont apply
+* graphs dont apply for system level testing of web app, can use for one component alone since program is distributed across internet
 * state behavior is hard to model
 * hard to get access to server side
 * not clear what logic predicates can be used
