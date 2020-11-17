@@ -1,6 +1,6 @@
 Week 10 
 ---------------------------------
-Testing of web applications
+**Testing of web applications**
 ---------------------------------
 -Web application is deployed (available worldwide) on the web
 -Requests accepted used HTTP
@@ -61,9 +61,11 @@ TEST CASE FOR WEB APP
 
 TESTING STATIC WEB APP
 -not program testing but testing HTML connections
+-check if links are valid
+-main ussue is ensure there are no dead link(hyperlink to non valid URL)
+
 
 non-functional parameters
--there should be no dead link(hyperlink to non valid URL)
 -must do load testing(everyone logs in)
 -performance evaluation
 -access control (authentication)
