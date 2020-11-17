@@ -13,7 +13,7 @@ https://onlinecourses.nptel.ac.in/noc20_cs77/unit?unit=70&lesson=74
   * class refines parent if new behavior provided which is not in overriden method, and doesnt call overriden method
 
 **inheritance**
-*sub type inheritance (aka substitution principle): If class B uses sub-type inheritance from class A, it is possible to freely substitute any instance of 
+* sub type inheritance (aka substitution principle): If class B uses sub-type inheritance from class A, it is possible to freely substitute any instance of 
 B for A and still satisfy a client of A. B has a is-a relationship with A
 * sub-class inheritance: Descendant can reuse methods and variables from ancestor without having to ensure descendant instances meet ancestor specifications
 
@@ -31,8 +31,9 @@ B for A and still satisfy a client of A. B has a is-a relationship with A
 **Visualizing OO interactions**
 * Assume a class encapsulates all state info required as a collection of state variables
 
+**CONTINUE FROM 18 minutes**
 
-**STOPED AT 16***
+
 
 
 
