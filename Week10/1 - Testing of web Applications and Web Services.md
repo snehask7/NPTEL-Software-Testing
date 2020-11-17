@@ -2,9 +2,9 @@ Week 10
 ---------------------------------
 Testing of web applications
 ---------------------------------
--Web application is deployed (available worldwide) on the web
--Requests accepted used HTTP
--Like client server application, client runs on browser
+*Web application is deployed (available worldwide) on the web
+*Requests accepted used HTTP
+*Like client server application, client runs on browser
 
 -Web service is a web deployed program that accepts XML messages wrapped in SOAP
 -no UI
