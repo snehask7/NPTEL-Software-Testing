@@ -1,0 +1,25 @@
+* Popular Errors  
+  * Ariane 5: rocket exploded due to conversion of 64 bit fp to 16 bit int for altitude data  
+  * Therac 25: machine that gives radiation therapy to cancer patients. Race condition occured and 6 died  
+  * Intel pentium bug: defective pentium chip so lost $475m cause of FP division error  
+  * Inadequate software testing costs US 22-59 billion per year  
+  * Amazon had an online discount sale and gave double the discount  
+  * Types of software:  
+    * Agile: developer must also test  
+    * Embedded safety critical: must meet regulatory standards ex: in cars  
+    * Enterprise software: very complex and large. Critical server requirement ex:citibank, railways  
+    * Web apps: Available to many users, Social networking  
+    * Free software: also expected to be correct  
+    * Cost of testing:Cost of fixing at later stages is very expensive. Errors more often start at unit testing stage. followed by design and then requirements. More often detected during system testing or integration  
+    * Testing cannot prove a software to be correct, only shows errors  
+    * Testing cannot be replaced by software reviews  
+    * Cannot be fully automated  
+      
+There are 5 process maturity levels:  
+* Level 0: No diff between testing and debugging. Doesn't help develop good software  
+* Level 1: Purpose is to show written code is correct. 
+* Level 2: Purpose is to show failures.This is a negative activity. Many companies are at this level.  
+* Level 3: Testing can show presence of failure. Testers and developers work together to reduce risk  
+* Level 4: Testing is a mental discipline that increases quality. Measure and improve software quality  
+
+    
