@@ -1,0 +1,36 @@
+# Testing Source Code: Classical Coverage Criteria  
+* Data flow graph augments control flow graph with data  
+* Code coverage: Statement coverage, branch coverage decision coverage, path coverage  
+  * Node coverage is the same as statement coverage  
+  * Edge coverage is the same as branch coverage  
+  * Prime path coverage is the same as loop coverage  
+  
+* Cyclomatic complexity: Basis path testing, structural testing  
+  * It is a software metric used to indiciate how complex a program is  
+  * It represents the number of linearly independent paths in the cfg of a program  
+  * Basis path testing deals with testing each independent path in teh CFG  
+  * Linearly independent path is a path that is not a sub path of any other path  
+  * Cyclomatic complexity M=E-N+2P  
+    * E:# of edges  
+    * N:# of nodes  
+    * P: # of connected components  
+    * Cyclomatic complexity should usually be between 1 and 10  
+    * 1 decision point has 1 node with 2 edges going out so cyclomatic complexity can give the number of decision points plus 1  
+    * If an edge is added from the final to initial vertex, it becomes a strongly connected compnonent  
+    * Cyclomatic complexity aka cyclomatic number  
+    
+  * **Basis path testing**: Used to test a code with respect to cyclomatic complexity  
+  * TR for basis path testing is the set of linearly independent paths  
+  * Basis path testing subsumes branch coverage and complete path coverage subsumes basis path testing  
+    
+* Decision to decision path: DD Path  
+  * Path of execution between 2 decisions  
+  * Chain in a graph is a path which has different start and end vertices, and all interior vertices have indegree and outdegree as 1  
+  * Maximal chain is a chain that is not a part of any other  
+  * DD-Path is a set of vertices that satisfies one of the following  
+    * Single vertex with in degree 0 (initial)  
+    * Single vertex with outdegree 0 (final)  
+    * Single verted with indegree >=2 or outdegree>=2 (decision vertex)  
+    * Single vertex with indrgee and outdegree 1  
+    * Maximal chan of length 1  
+    (
