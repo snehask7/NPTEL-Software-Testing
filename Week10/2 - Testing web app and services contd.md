@@ -15,7 +15,7 @@ https://onlinecourses.nptel.ac.in/noc20_cs77/unit?unit=70&lesson=72
 * Client provides inputs (html form elements)
 * Inputs can be chosen or generated
 * Generated from previous user sessions (very effective)
-* Supplied by tested
+* Supplied by tester
 * Generated randomly (not very effective)
 * Bypass testing: values that violate constraints on inputs
 * Problem is not all screens are accessible
