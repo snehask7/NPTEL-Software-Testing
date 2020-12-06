@@ -51,7 +51,12 @@ B for A and still satisfy a client of A. B has a is-a relationship with A
 * 9 kinds of faults/anomolies  
   * ITU: inconsistent type use - descendent class does not override any inherited method. if class C extends T and C adds new methods, object can be used as both T and C and methods in T might make object go to state that is inconsistent for C  
   * SDA: State definition anomaly - state interactions of descendant not consistent with ancestor. Class C extends W and X overrides methods in W, but variables that are defined by a overriden method may never be defined because the overriding method is executed instead and other functions may use the variable that must have been defined by the overriden method  
-  * SDIH: State definition inconsistency - 
-  * SDI: State defined incorrectly
+  * SDIH: State definition inconsistency - Local variable introduced in class definition and name is same as another inherited variable. Local variable is only referred to unless super.v used (hidden variable). Anomoly if method defines local variable and sends to another method in a different class which is expecting inherited variable from ancestor  
+  * SDI: State defined incorrectly - overriding method defines same variable that overriden method defines.  
+  * SVA: State visibility anomaly: X extends W and Y extends X. W may have a private variable which is not visible by descendant but needs to be used by descendant overriding method  
+  * IISD: indirect inconsistent state definition - descendent adds extension method that defines inherited state variable  
+  * ACB1: Anomalous construction behavior 1  
+  * ACB2: Anomalous construction behavior 2  
+  * IC: Incomplete construction
 
 
