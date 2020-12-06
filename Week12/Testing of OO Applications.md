@@ -1,0 +1,14 @@
+# OO call coverage criteria specific to integration testing  
+* Coupling variables in OO: pair of method calls within body of method under test made through common instance, wrt set of state variables commonly referenced by both methods, consists of atleats one path between method calls wrt state variable  
+* Must identify points of integration  
+* OO Defs and uses can be indirect. We dont know which version is exec in which method so must consider all methods that can execute  
+* Polymorphoc call set: set of methods that can potentially execute as a result of a method call through a particular instance context  
+* testing goals: how a method can interact with instance bound to an object. When an object o is bound to an instnce of w, it is different from when o is bound to z. Need to consider set of interactions possible, need to test all couplings with all type bindings  
+* COverage criteria  
+  * All coupling Sequences (ACS) - icludes all coupling variables: For every coupling sequence Sj in f(), there is atleast one test case t such that there is a coupling path induced by sj,k that is a sub path of the execution trace of f(t). Atleast one coupling path must be executed. Does not consider inheritance or polymorphism  
+  * All poly classes(APC) - includes one test case for every possible type subs and for every type the object can bind to: For every coupling sequence Sj,k in a method f(), and for every class in the family of types defined by the context of Sj,k there is atleast one test case t such that when f() exec using t, there s a path p in the set of coupling paths Sj,k that is a sub path of the execution trace of f(t)  
+  * All coupling defs and uses (ACDU): For every coupling variable v in each coupling s j,k of t, there is a coupling path p induced by s j,k such that p is a sub-path of the execution trace of f (t) for at least one test case t. Does not consider inheritance and poly. Every last def reaches every first use  
+  * All-Poly-Coupling-Defs-Uses (APCDU): Every last to every first use with inheritance and poly  
+    
+    All-Poly-Coupling-Defs-Uses subsumes All poly classes(APC) and All coupling defs and uses and both of these subsume All coupling Sequences  
+    
