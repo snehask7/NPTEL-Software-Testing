@@ -8,8 +8,8 @@ https://onlinecourses.nptel.ac.in/noc20_cs77/unit?unit=70&lesson=74
 * Classes used to represent abstraction
 * inheritance, polymorphism, dynamic binding also support abstraction
 * new types created by abstraction are descendants of existing types
-   2new types
-  *extension: class extends parent if new method name and doesn't override any method in ancestor
+  2 new types
+  * extension: class extends parent if new method name and doesn't override any method in ancestor
   * class refines parent if new behavior provided which is not in overriden method, and doesnt call overriden method
 
 **inheritance**
