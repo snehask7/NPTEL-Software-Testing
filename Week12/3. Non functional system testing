@@ -1,0 +1,55 @@
+#  Non functional system testing  
+* Non functional begins only at system tetsing phase  
+* Non functional system tests  
+  * Interoperability: whether system can interoperate with 3rd party products. includes compatibilty.  
+    * 2 types of compatability  
+      * Forward: older version doc should be compatible with newer version  
+      * Backward: newer version doc should atleast be opened using old version  
+  * Security: Checks if system protects data and maintains seciruty related functionality. CIA ensured (confidentiality, integrity, availability) and also deals with autentiation (validation of credentials) and authorization (permission).   
+    * types of security testing  
+      * Verify only authorized access permitted  
+      * Verify correctness of enc and dec algos  
+      * illegal file reading not allowed (unathorized)  
+      * virus checker must prevent virus  
+      * identify back doors through which access to system can be gained  
+      * Verify authentication protocols, client server communication  
+  * Reliability: ability to keep operating over long periods of time. includes hardware and software reliability  
+  * Scalability: verify that system can scale up to its engineering limits. max magnitude of users that can be used while performance requirements are still met. limitations to scale up are because of memory, cpu speed, bandwidth. `
+  * Documentation: verify technical accuracy and readability of the documentations, online help, tutorials  
+    * performed at 3 levels  
+      * Read test: check clarity, organization, flow, accuracy  
+      * Hands on test: seek online help and see how useful it is  
+      * Functional test: instructions in doc are followed to see if system works as expected  
+    * Tests performed  
+      * grammar test  
+      * graphics usage  
+      * glossary  
+      * proper index  
+      * online and printed doc versions should be consistent 
+      * very installation procedure by executing step by step  
+      * verify troubleshooting using actual error scenarios  
+  * Regulatory: Each country has regulatory bodies based on the country. Qualiy standards must be met. Ex: FCC,CE,CSA  
+ * Performance: Sees how responsiveness and stability is at different loads, Measures attributes such as scalability, reliability  
+    * Types  
+      * Load testing: Understand behavior at a specific load  
+      * Stress testing: to find upper limit capacity and cgecks what happens if load goes above the maximum  
+      * Soak testing aka endurance testing: continuous expected load is used and checks for memory leaks  
+      * Spike testing: Suddenly increase number of users. It is a type of stress testing  
+    * Goals  
+      * Must show system meets performance criteria  
+      * compare 2 systems and check which is better  
+      * identify which parts of the system caused bad performance  
+    * Performance testing always includes  
+      * Number of users  
+      * response time  
+      * Throughput  
+    * tools to create and run performance scripts  
+      * HP load runner  
+      * NeoLoad - good for web and mobile  
+      * Apache jmeter: good for web apps, open source  
+      * Rational performance tetser  
+      * Gatling: good for web apps, open source  
+    * System running scripts needs to be monitored using special scripts or external devices  
+    
+
+      
