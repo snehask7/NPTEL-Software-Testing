@@ -6,4 +6,4 @@
 * Maturity levels in testing  
 * Testing terminologies  
 * Model based testing and criterias  
-* <span style="color: red;">jUnit example and terminologies</span>
+* - jUnit example and terminologies
