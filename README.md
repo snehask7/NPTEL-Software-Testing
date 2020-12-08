@@ -8,4 +8,9 @@
 * Model based testing and criterias  
 ```diff
 - jUnit example and terminologies
+```  
+  
+## Week 2  
+```diff  
+- round trip coverage and why it does not subsume node coverage  
 ```
