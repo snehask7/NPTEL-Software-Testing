@@ -13,4 +13,9 @@
 ## Week 2  
 ```diff  
 - round trip coverage and why it does not subsume node coverage  
+```  
+## Week 3  
+```diff  
+- 3rd lecture last example why extra path in test path for prime path coverage  
 ```
+
