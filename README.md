@@ -33,6 +33,7 @@
     
 ```diff  
 - round trip coverage and why it does not subsume node coverage  
+- Paranthesis theorem formula  
 ```  
 ## Week 3  
 * defs and uses  
@@ -48,5 +49,6 @@
 * DD Path and 5 conditions  
 ```diff  
 - 3rd lecture last example why extra path in test path for prime path coverage  
+- DD path 5 conditions
 ```
 
