@@ -90,6 +90,21 @@
     * All coupling use  
     * All coupling du path  
   * Transitive du pair  
+* Specification testing and graph coverage  
+  * Design specification describes what behavior software must exhibit  
+  * Sequencing constraints impose constraints on the order in which methods may be called  
+  * Consider CFG and find paths violating constraints  
+  * Sometimes memory needed so FSM used for state behavior  
+* Coverage Criteria for FSM  
+  * Node,edge,edge pair  
+  * data flow coverage gets complex  
+* precondition  
+* triggers  
+* Testers need to generate fsm on their own  
+* In summary, Graphs have both structural coverage criterias and data flow coverage. Source code can be modelled using CFG and CGF with defs and uses. Design modelled using call graphs and coupling du pairs. Specifications are modelled using sequencing constraints and FSM  
+  
+## Week 5  
+
   
   
 
