@@ -2,12 +2,20 @@
 ## Week 1   
 * Introduction to software testing  
 * Popular examples of faults due to lack of testing  
-* Types of testing  
+* Types of software  
 * Maturity levels in testing  
-* Testing terminologies  
-* Model based testing and criterias  
+* Testing terminologies 
+* Types of testing  
+* RIPR  
+* Model based testing  
+* Test requirement and criterias  
+* Generator and recognizer  
+* jUnit  
+* prefix and postfix values  
+* Assertions  
+* jUnit used for system testing  
 ```diff
-- jUnit example and terminologies
+- jUnit syntax
 ```  
   
 ## Week 2  
