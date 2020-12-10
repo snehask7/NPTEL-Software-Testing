@@ -35,7 +35,7 @@
   * Tour with side trips and detours  
   * Structural coverage criteria subsumtion  
 * BFS  
-* DFS (paranthesis theorem)  
+* DFS (paranthesis theorem), types of edges  
 * Strongly connected components  
 * Algorithm for finding prime paths   
     
