@@ -72,5 +72,24 @@
   * bottom up  
   * sandwich  
   * big bang  
+* Structural Coverage criteria with integration testing  
+  * Node coverage covers all modules  
+  * Edge coverage covers all calls between modules  
+  * Path coverage for sequence of calls  
+* OO call coverage and OO Object call coverage  
+* Data flow coverage criteria with integration testing  
+  * Caller, callee, call site, actual and former parameter  
+  * Coupling variable  
+  * Types of coupling  
+    * Parameter  
+    * Shared data  
+    * External device  
+  * Last def, first use  
+  * Coverage criteria  
+    * All coupling def  
+    * All coupling use  
+    * All coupling du path  
+  * Transitive du pair  
+  
   
 
