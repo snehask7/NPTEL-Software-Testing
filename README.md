@@ -58,5 +58,19 @@
 ```diff  
 - 3rd lecture last example why extra path in test path for prime path coverage  
 - DD path 5 conditions
-```
+```  
+## Week 4  
+* Data flow coverage example for a test code  
+* Test paths from DU pairs  
+* What is integration testing  
+* Types of interfaces  
+* Types of interface errors  
+* Scaffolding  
+* 5 Approaches to integration testing  
+  * incremental  
+  * top down  
+  * bottom up  
+  * sandwich  
+  * big bang  
+  
 
