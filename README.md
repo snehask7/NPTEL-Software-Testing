@@ -99,7 +99,7 @@
 * Testers need to generate fsm on their own  
 * In summary, Graphs have both structural coverage criterias and data flow coverage. Source code can be modelled using CFG and CGF with defs and uses. Design modelled using call graphs and coupling du pairs. Specifications are modelled using sequencing constraints and FSM  
   
-## Week 5  
+## Doubts
 
 ```diff  
 -Week 6 2021 assignment last 3 questions?  
