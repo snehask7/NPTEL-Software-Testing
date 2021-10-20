@@ -9,7 +9,7 @@ https://onlinecourses.nptel.ac.in/noc20_cs77/unit?unit=70&lesson=74
 * inheritance, polymorphism, dynamic binding also support abstraction
 * new types created by abstraction are descendants of existing types  
   2 new types  
-  * extension: class extends parent if new method name and doesn't override any method in ancestor
+  * extension: class extends parent if new method name introduced and doesn't override any method in ancestor
   * class refines parent if new behavior provided which is not in overriden method, and doesnt call overriden method
 
 **inheritance**
