@@ -19,7 +19,7 @@ https://onlinecourses.nptel.ac.in/noc20_cs77/unit?unit=70&lesson=73
   * Component interaction model
   * application transition graph 
  
-**Atomic sections***
+**Atomic sections**
 * We look at server side code present in the presentation layer
 * sections are dynamically generated and sent from server to the client
 * Atomic section has the property that if one part of the section is sent to the client, the entire section is.
@@ -55,7 +55,10 @@ https://onlinecourses.nptel.ac.in/noc20_cs77/unit?unit=70&lesson=73
 * Operational Transition (sudden unplanned input; ex: back, forward, refresh, user edits url, broswer reloads from cache)
 * Redirect transition (server side transition not visible to user)
 
-**Video for CIM example and ATG example 22 minutes**
+**Video for CIM example and ATG example 20 minutes**
+
+* ATG cannot be generated automatically
+* There is no data-flow based testing for web apps
 
   
   
