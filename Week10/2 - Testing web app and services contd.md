@@ -39,24 +39,29 @@ https://onlinecourses.nptel.ac.in/noc20_cs77/unit?unit=70&lesson=72
 * Bypass testing can also be done at the server side
 * safer to do it at the client side since server data might get corrupted
 
-**Validation rules examples**
-* violate size restriction
-* Use values not present in the dropdown
-* violate hard coded values
-* use values that cause javascript errors
-* Change get to post or vice versa
-* Change destination URL
+**Validation types**
 
-**server side constraints**
+*HTML*
+* length
+* value (preset values)
+* Transfer mode (get or post)
+* field elements (preset field)
+* target url
+
+*Scripting Constraints*
 * data type conversion
-* data format validation
-* inter field validation
+* data format validation (ex: only pdf files, only zip files)
+* data value (btwm 1 and 10)
+* Inter-value,Inter-Field (match credit card and expiry date)
+* Invalid characters
+* Inter request data fields (cookies, hidden)
 
 **Security violation**
 * empty string
 * commas
 * tag symbols
 * dir paths
+* special characters
 
 
 
