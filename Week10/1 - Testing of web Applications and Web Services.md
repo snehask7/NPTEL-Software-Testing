@@ -75,7 +75,7 @@ non-functional parameters
 **GRAPH MODEL OF STATIC WEB site**
 * nodes are web pages
 * edges are HTML links
-* BFS used, by starting with intro pages and recursively do BFS for all links on intro pages
+* BFS used to  build graph, by starting with intro pages and recursively do BFS for all links on intro pages
 * graph then tested for edge coverage (traverse each edge)
 
 
