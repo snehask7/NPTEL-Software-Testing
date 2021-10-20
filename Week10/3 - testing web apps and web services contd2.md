@@ -25,7 +25,7 @@ https://onlinecourses.nptel.ac.in/noc20_cs77/unit?unit=70&lesson=73
 * Atomic section has the property that if one part of the section is sent to the client, the entire section is.
 * Atomic section can include javascriot 
 * atomic section can be empty
-* **Content variable is when data is generated dynamically**
+* **Content variable is when data is generated dynamically. it provides data to an atomic section**
 
 **Graph models**
 * Component interaction model (CIM)
