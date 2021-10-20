@@ -41,7 +41,7 @@ https://onlinecourses.nptel.ac.in/noc20_cs77/unit?unit=70&lesson=73
   
 **Component expressions**
 * Atomic sections are combined to model dynamically generated web pages
-* 4 ways to combine and gegerate component expressions:
+* 4 ways to combine and generate component expressions:
   * Sequence P1.P2 (P1 then P2)
   * Selection P1|P2 (p1 or p2)
   * Iteration P1* (P1 0 or more times)
