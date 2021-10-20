@@ -59,7 +59,7 @@ Each layer must be tested seperately and system level testing must also be done
 
 **TEST CASE FOR WEB APP**
 * sequence of interactions between components on clients and servers
-* depocted by a path of transitions (but challenging for dynamic)
+* depicted by a path of transitions (but challenging for dynamic)
 
 **TESTING STATIC WEB APP**
 * not program testing but testing HTML connections
