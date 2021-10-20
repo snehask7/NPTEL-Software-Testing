@@ -23,7 +23,7 @@ https://onlinecourses.nptel.ac.in/noc20_cs77/unit?unit=70&lesson=72
 **Test value selection**
 * Values within domain are needed. Not efficient to generate all possible inputs
 * Generating random values is not effective
-* Very gard to automatically generate values
+* Very hard to automatically generate values
 * User data might be innefective from testing point of view
 * Tester supplied inputs might be expensive
 * Study the application and construct a set of values
