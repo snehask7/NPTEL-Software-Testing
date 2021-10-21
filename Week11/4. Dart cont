@@ -1,0 +1,27 @@
+  
+* Execs can be a tree with assignmentss having one successor and conditions with 2, leaves are abort or halt  
+* symbolic memory S maps memory addresses to expressions  
+* Whenever a path constraint is not linear, algo uses concrete values and not symbolic  
+* case m: just a variable so directly return symbolic expression which is S(m) if m is in S and M(m) otherwise  
+* case  `*(e',e")`: arithmetic operation with operance e' and e" so each should seperately be evaluated first. if either of the 2 evaluated expressions is not a constant then non linear expression is obtained so ust do concrete evaluation. If both are constants then do concrete evaluation. Otherwise if 1 is a constant, evaluate that expression and return  
+* case `*e'` : pointer so first evaluate e', and then see if a constant is obtained. if it is a constant and is in the domain S, then `S*C `, otherwise M(`*c`). if it is not a constant them evaluate concrete  
+* all_locs_definite: knows locations of all variables  
+* substituting concrete values overcomes unsolvability of pc by constraint solver sometimes  
+  
+* DART test driver  
+* iitialize all boolean to true  
+* Repeat loop while all linear and all locations are defined  
+* DART keeps a stack , input vector and boolean var directed which is for directed search  
+* instrument program is a function called in the test driver with stack and input vector  
+* DART can run forever  
+* instrumented program initializes inputs with random values in input vector if not initialized  
+* it initializes memory and sets uo symbolic memory, sets initial program counter  
+* if a new assignment statement is encountered, is is symbolically and concretely evaluated and memory location is updated  
+* for conditional statement, concrete evaluation done and checks if it shoulf take then or else branch and updates path constraint and stack accordingly  
+* stack keeps track of path constraint that was last added  
+* the PC at the Ifp if the stack is what dart will flip  
+* If halt is encountered, must solve path constraint, calls a constraint solver  
+* in the instrumented prorgam, branch value is recorded and is 1 for then. done value is noted and is 0 when path has already been explored  
+* stack has infro related to each conditional statement.  
+* if DART prints bug found, then input that causes abort. If terminates without printing then no input that causes abort. otherwise it runs forever
+
