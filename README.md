@@ -1,6 +1,6 @@
 # NPTEL-Software-Testing
 
-## Doubts from 2020
+## Doubts
 
 ```diff  
 - week 1 2020 q9, isn't answer level 2?
